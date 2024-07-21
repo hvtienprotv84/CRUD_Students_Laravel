@@ -3,7 +3,7 @@
 <head>>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Laravel 11 CRUD</title>
+    <title>Tiến - CRUD - Laravel 11 </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
           crossorigin="anonymous">
@@ -15,7 +15,7 @@
             <a href="/">
             <div class="container_title">
                 <!-- <a href="/"> -->
-                    <img class="img" src="../logo_1.png"/>
+                    <img class="img" src="/logo_1.png"/>
                     <p>Huỳnh Vĩnh Tiến |</p>
                 <!-- </a> -->
             </div>
@@ -79,6 +79,9 @@
             }
             a{
                 text-decoration: none;
+            }
+            .container{
+                margin-top: 100px;
             }
         </style>
 </body>

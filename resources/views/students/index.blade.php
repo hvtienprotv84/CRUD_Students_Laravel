@@ -5,7 +5,7 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="d-flex justify-content-between align-items-center">
+    <div class="d-flex justify-content-between align-items-center total_students">
         <h2>
             Tổng Số Học Sinh: {{ $students->total() }}
         </h2>
@@ -56,4 +56,9 @@
 
         {{ $students->links() }}
     </div>
+    <style>
+        .total_students{
+            margin-top: -50px;
+        }
+    </style>
 @endsection
