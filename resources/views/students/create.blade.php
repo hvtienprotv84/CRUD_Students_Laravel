@@ -2,18 +2,18 @@
 
 @section('content')
 
-    <div>
+    <div class="container_add_students">
         <h2>Thêm Học Sinh Mới</h2>
 
         <div class="row">
-            <div class="col-md-6">
+            <div class="">
                 <form method="post" action="{{ route('students.store') }}">
                     @csrf
 
                     <div class="mb-3">
                         <label for="name" class="col-form-label">Họ và Tên:</label>
 
-                        <input id="name" type="text" class="form-control @error('name') is-invalid @enderror"
+                        <input id="name" type="text" style="width: 500px;" class="form-control @error('name') is-invalid @enderror"
                                name="name" value="{{ old('name') }}" required autofocus>
 
                                <label for="lop" class="col-form-label">Lớp:</label>
@@ -46,5 +46,16 @@
             </div>
         </div>
     </div>
+
+    <style>
+        .container_add_students{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            max-width: 100% !important;
+        }
+    </style>
 
 @endsection
