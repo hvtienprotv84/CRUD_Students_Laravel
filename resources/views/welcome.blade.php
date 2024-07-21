@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="bg-body-tertiary p-5 rounded">
+    <div class="bg-transparent p-5 rounded">
         <h1>Laravel 11 - CRUD Students</h1>
          <!-- <div>
             <img id="img" src="../logo_1.png"/>

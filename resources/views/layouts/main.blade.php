@@ -43,7 +43,7 @@
         </div>
     @endif
 
-    <div class="mt-5 p-5">
+    <div class="mt-5 bg-transparent">
         @yield('content')
     </div>
 </main>
