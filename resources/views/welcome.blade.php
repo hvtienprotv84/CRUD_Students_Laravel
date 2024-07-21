@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="bg-transparent p-5 rounded">
+    <div class="bg-transparent p-5 rounded container_welcome">
         <h1>Laravel 11 - CRUD Students</h1>
          <!-- <div>
             <img id="img" src="../logo_1.png"/>
@@ -21,10 +21,15 @@
         }
         h1{
             font-size: 50px;
+            text-align: center;
+            margin-bottom: 50px;
         }
         #img{
             width: 400px !important;
             margin-left: 50px;
+        }
+        .container_welcome{
+            margin-top: -50px;
         }
     </style>
 @endsection
