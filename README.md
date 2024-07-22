@@ -1,2 +1,16 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center">
+    <a href="https://laravel.com" target="_blank"><img src="https://static-00.iconduck.com/assets.00/laravel-icon-1990x2048-xawylrh0.png" width="200" alt="Laravel Logo"></a> &nbsp; &nbsp; &nbsp;
+   <a href="https://laravel.com" target="_blank"><img src="https://www.pngkey.com/png/full/269-2693201_mysql-logo-circle-png.png" width="200" alt="Laravel Logo"></a>
+</p>
 
+<div align="center">
+     <h1>CRUD - Students - Laravel</h1>
+</div>
+
+- **Laravel** - (Laravel 11)
+- **MySQL** - (XAMPP)
+
+# RUN
+- `php artisan key:generate`
+- `php artisan migrate`
+- `php artisan serve`
