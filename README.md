@@ -10,7 +10,7 @@
 - **Laravel** - (Laravel 11)
 - **MySQL** - (XAMPP)
 
-**Lưu Ý**
+## **Lưu Ý**
 - Thay đổi file `.env example` thành `.env`
 
 # RUN
