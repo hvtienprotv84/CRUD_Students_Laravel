@@ -10,6 +10,9 @@
 - **Laravel** - (Laravel 11)
 - **MySQL** - (XAMPP)
 
+**Lưu Ý**
+- Thay đổi file `.env example` thành `.env`
+
 # RUN
 - `php artisan key:generate`
 - `php artisan migrate`
